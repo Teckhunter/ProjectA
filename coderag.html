@@ -10,13 +10,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title> <!--CodeRag--></title>
 	<style>
-		
-	#headline1
+#headline1
 {
   background: #FEDF00; /*Yellow(Pantone*/
   padding-top:25px;
   padding-bottom:30px;
 }
+
 div img
 {
   color:#2F4F4F;
@@ -61,11 +61,90 @@ div img
   background:#778899;
   color:white
 }
-#backspace
+#body2
 {
-background:#4C5866;
+  background:white;
+  
 }
-	</style>
+#body2 hr
+{
+  margin-left:0px;
+  margin-right:0px;
+  height:2px;
+  background:gray;
+}
+#body1,#body3
+{
+  background:#555555;
+}
+.main
+{
+  background:#555555;
+  padding-top:2%;
+  
+}
+#sharebuttons button
+{
+height:40px;
+}
+.facebook
+{
+  background:#3b5998;
+  color:white;
+  padding-bottom:10px;
+  box-shadow: inset -0px -5px #24355c;
+  border-radius:0px;
+  margin-left:-45px;
+  width:40px;
+  transition:1s;
+}
+.twitter
+{
+  background:#00aced;
+  color:white;
+  padding-bottom:10px;
+  box-shadow: inset -0px -5px #005e80;
+  border-radius:0px;
+  margin-left:-49px;
+  transition:1s;
+}
+.quora
+{
+  background:#a82400;
+  color:white;
+  padding-bottom:10px;
+  box-shadow: inset -0px -5px #801c00;
+  border-radius:0px;
+  margin-left:-50px;
+  transition:1s;
+}
+.share
+{
+  background:#5B9A68;
+  color:white;
+  padding-bottom:10px;
+  box-shadow: inset -0px -5px #2f5036;
+  border-radius:0px;
+  position:relative;
+}
+
+.share:focus + .facebook 
+{
+ margin-left:-5px;
+  transition:1s;
+}
+.share:focus + .facebook + .twitter
+{
+  margin-left:-6px;
+  transition:1s;
+  
+}
+.share:focus + .facebook +.twitter+.quora
+{
+ margin-left:-5px;
+  transition:1s;
+}
+</style>
 </head>
 
 <body>
@@ -89,8 +168,30 @@ background:#4C5866;
   </div>
   
   <!-- Content Starts here-->
-  <div id="backspace">
-  <p>Canopy</p>
+  <div class="row main">
+    <div class="col-lg-2 col-md-2" id="body1">
+    </div>
+  <div  class="col-lg-8 col-md-2" id="body2">
+    <center><h2>A new player in VC field: Bream Hall</h2></center> <br>
+    <hr>
+    <di class="row">
+      <div class="col-md-2">
+    <h6>September 12,2011</h6>
+      </div>
+      <div class="col-md-6">
+      </div>
+      <div class="col-md-4" id="sharebuttons">
+        <button class="btn share"><i class="fa fa-share-alt"></i>  Share</button>
+        <button class="btn facebook"><i class="fa fa-facebook"></i></button>
+        <button class="btn twitter"><i class="fa fa-twitter"></i></button>
+        <button class="btn quora" id="quora"><i class="fa fa-quora"></i></button>
+      </div>
+    
+    
+    </div>
+    <div class="col-lg-2 col-md-2" id="body3">
+    </div>
   </div>
-</body>
+    
+    </body>
 </html>
