@@ -8,6 +8,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=Raleway|Spectral+SC|PT+Sans+Narrow" rel="stylesheet">
+
 	<title> <!--CodeRag--></title>
 	<style>
 #headline1
@@ -66,6 +68,12 @@ div img
   background:white;
   
 }
+#body2 h2
+{
+  font-family:Spectral SC;
+  font-size:40px;
+  padding-top:20px;
+}
 #body2 hr
 {
   margin-left:0px;
@@ -82,10 +90,6 @@ div img
   background:#555555;
   padding-top:2%;
   
-}
-#sharebuttons button
-{
-height:40px;
 }
 .facebook
 {
@@ -139,14 +143,55 @@ height:40px;
   transition:1s;
   
 }
+
 .share:focus + .facebook +.twitter+.quora
 {
  margin-left:-5px;
   transition:1s;
 }
+
+
+
+
+#image .col-lg-8 img
+{
+  width: 512px;
+  height: 288px;
+  margin-left:30px;
+  border-radius:12px 0px 0px 12px;
+}
+#image .col-lg-4 img
+{
+  width: 100%;
+  height: 144px;
+  border-radius:0px 12px 12px 0px;
+  margin-left:-50px;
+  border:none;
+}
+#image
+{
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-top:50px;
+  padding-bottom:50px;
+  border-radius:12px;
+  background:#FFF8DC;
+}
+
+.row .col-md-3 h6
+{
+  font-family:Raleway;
+}
+
+
+#content
+{
+  font-size:20px;
+  margin: 5% 5% 5% 5%;
+  font-family:PT Sans Narrow, sans-serif;
+}
 </style>
 </head>
-
 <body>
   <div class="row" id="headline1">
     <div class="col-lg-2 col-md-2 col-sm-2 center1">
@@ -171,27 +216,45 @@ height:40px;
   <div class="row main">
     <div class="col-lg-2 col-md-2" id="body1">
     </div>
-  <div  class="col-lg-8 col-md-2" id="body2">
-    <center><h2>A new player in VC field: Bream Hall</h2></center> <br>
-    <hr>
-    <di class="row">
-      <div class="col-md-2">
-    <h6>September 12,2011</h6>
-      </div>
-      <div class="col-md-6">
-      </div>
-      <div class="col-md-4" id="sharebuttons">
+    <div  class="col-lg-8 col-md-8" id="body2">
+      <hr>
+      <center><h2>A new player in VC field: Bream Hall</h2></center> <br>
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+          <h6>September 12,2011</h6>
+          <h6> Written By: Bruce Wayne</h6>
+        </div>
+        <div class="col-md-5">
+        </div>
+        <div class="col-md-4" id="sharebuttons">
         <button class="btn share"><i class="fa fa-share-alt"></i>  Share</button>
         <button class="btn facebook"><i class="fa fa-facebook"></i></button>
         <button class="btn twitter"><i class="fa fa-twitter"></i></button>
         <button class="btn quora" id="quora"><i class="fa fa-quora"></i></button>
+        </div>
       </div>
-    
-    
+      <div id="image">
+        <div class="row">
+          <div class="col-lg-8">
+        <center><img src="https://thehalleyben.files.wordpress.com/2017/11/bream-hall.jpg"></center>
+          </div>
+          <div class="col-lg-4">
+            <img src='https://thehalleyben.files.wordpress.com/2017/11/monica_hall.jpg'>
+            <img src="https://thehalleyben.files.wordpress.com/2017/11/laurie-bream.jpg">
+          </div>
+        </div>
+      </div>
+      <div id="content" class="container-flow">
+        <p> In what turned out to be a harsh Coup d'état for Laurie Bream became an opportunity for a new VC to emerge in town.</p>
+        <p> After Peter Gregory's untimely death, Raviga has been struggling against what you can call 'Termite Deals'. In 12 different startups that were funded, 5 shut shop within 4 quaters costing Raviga 120 Million USD straight in bad investment costs. Laurie's pregnancy was used as an excuse to push very capable woman out of Tech.</p>
+        <p> Well, joke's on them as Laurie clearly used the opportunity to jump ships and established her own firm, Bream Hall. What does the Hall mean you ask? Well Laurie didnt come alone from Raviga but also took Monica Hall, Peter's longtime advisor and primary startup hunter, as we can say came with her. She was the one who discovered one buzz of the town Pied Piper.</p>
+        <p>Currently Ed Chen is the interim head of Raviga. Rumours are it was Chen who arranged the coup by buttering the board.
+          And there are currently a couple of workplace harrassment cases in pipeline against him due to his mistreatment of women.
+        </p>
+        <hr>
+      </div>
     </div>
-    <div class="col-lg-2 col-md-2" id="body3">
-    </div>
-  </div>
     
     </body>
-</html>
+	</html>
