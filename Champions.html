@@ -2,18 +2,114 @@
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=Raleway|Spectral+SC|PT+Sans+Narrow" rel="stylesheet">
+
 
 	<title>CodeRag</title>
 	<style>
+.row
+{
+  margin-right:0.05%;
+}
+#headline1
+{
+  background: #FEDF00; /*Yellow(Pantone*/
+  padding-top:25px;
+}
 
+#headline1 img
+{
+  color:#2F4F4F;
+  width:140px;
+  height:72px;
+}
+.center1
+{
+  padding-left:50px;
+}
+#headline2 button
+{
+  font-size:12px;
+  width:20%;
+  height:40px;
+  margin-top:18px;
+  margin-right:-4px;
+  border-radius:0px;
+}
+#headline2 button:hover
+{
+  background:#778899;
+  color:white;
+}
+#headline2 button:active
+{
+  background:#F0CC11;
+  color:white
+}
+
+#headline3 button
+{
+  color:black;
+  margin-left:-3.8px;
+  width:25%;
+  height:40px;
+  border-radius:0px;
+  margin-top:18px;
+}
+#headline3 button:hover
+{
+  background:#778899;
+  color:white
+}
+#body2
+{
+  background:white;
+  
+}
+#body2 h2
+{
+  font-family:Spectral SC;
+  font-size:40px;
+  padding-top:20px;
+}
+#body2 hr
+{
+  margin-left:0px;
+  margin-right:0px;
+  height:2px;
+  background:gray;
+}
+#body1,#body3
+{
+  background:#555555;
+}
+.main
+{
+  background:#555555;
+  padding-top:2%;
+  
+}
+
+
+
+
+.top
+{
+  margin-top:-1.5%;
+}
 #shekhar
 {
   background:#553643;
 }
-#parth img
-{
-  
-}
+
 #parth{
   background:#744242;
   color:white;
@@ -25,33 +121,119 @@
 img
 {
   width:107%;
-  height:300px;
-  margin-left:-3.5%;
-  
-  
+  height:256px;
+  margin-left:-3.5%;  
 }
 .col-lg-4
 {  
   padding-bottom:300px;
+  margin-bottom:40px;
 }
+.social-buttons button
+{
+  border-radius:0px;
+  width:20%;
+}
+
+.social-buttons
+{
+ margin-top:20%;
+  margin-bottom:-20%;
+}
+
+#footer
+{
+  background:#693529;  
+}
+.fa
+{
+  color:white;
+}
+ .fac-facebook 
+{
+ background:#3b5998;
+}
+ .fac-linkedin 
+{
+ background:#0077b5;
+
+}
+ .fac-github 
+{
+ background:#333333;
+}
+
 
 
 
 	</style>
 </head>
 <body>
-	<div >
+	 <div class="row" id="headline1">
+    <div class="col-lg-2 col-md-2 col-sm-2 center1">
+      <img src="https://thehalleyben.files.wordpress.com/2017/11/coderag_coderaglogo.png">
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6" id="headline2">
+      <button class="btn">Home</button>
+      <button class="btn">Latest</button>
+      <button class="btn">Tech</button>
+      <button class="btn">Investors</button>
+      <button class="btn">Titans</button>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4" id="headline3">
+      <a href="facebook.com/parth.saxena.378" target="#"><button class="btn"><i class="fa fa-facebook"></i></button></a>
+      <a href="" target="#"><button class="btn"><i class="fa fa-twitter"></i></button></a>
+      <button class="btn"><i class="fa fa-user"></i></button>
+      <button class="btn"><i class="fa fa-search"></i></button>
+    </div>
+  </div>
+ 
+
+
+
+<div class="top">
   <div class="col-lg-4" id="parth">
     <a href="#"><img src="https://thehalleyben.files.wordpress.com/2017/11/gods.jpg"><button class="btn btn-block"><h2>Parth</h2></button></a>
+      <div class="social-buttons container">
+      <center><button class="btn fac-facebook"><i class="fa fa-facebook"></i></button>
+        <button class="btn fac-linkedin"><i class="fa fa-linkedin"></i></button>
+        <button class="btn fac-github"><i class="fa fa-github"></i></button></center>
+    </div>
 </div>
+ 
+  <!--Rahul-->
+  
   <div class="col-lg-4" id="rahul">
     <a href="#"><img src="https://thehalleyben.files.wordpress.com/2017/11/flash_vs_reverse_flash-wallpaper-1920x1080.jpg">
       <button class="btn btn-block"> <h2>Rahul</h2></button></a>
+    
+    <div class="social-buttons container">
+      <center><a href="facebook.com/rahul8752" target="#"><button class="btn fac-facebook"><i class="fa fa-facebook"></i></button></a>
+        <a href"linkedin.com"><button class="btn fac-linkedin"><i class="fa fa-linkedin"></i></button></a>
+        <a href="github.com/Teckhunter"> <button class="btn fac-github"><i class="fa fa-github"></i></button></a></center>
+    </div>
+    
+    <!--Shekhar-->
   </div>
   <div class="col-lg-4" id="shekhar">
-    <a href="#"> <img src="https://thehalleyben.files.wordpress.com/2017/11/batman-super.jpg"><button class="btn btn-block"><h2>Shekhar</h2></button></a>
+    <a href="#shekhar-modal"> <img src="https://thehalleyben.files.wordpress.com/2017/11/batman-super.jpg"><button class="btn btn-block"><h2>Shekhar</h2></button></a>
+    
+    <div class="social-buttons container">
+      <center><button class="btn fac-facebook"><i class="fa fa-facebook"></i></button>
+        <a href="facebook.com/shekharbanerjee96"><button class="btn fac-linkedin"><i class="fa fa-linkedin"></i></button>
+ <a href="github.com/shekharbanerjee96">       <button class="btn fac-github"><i class="fa fa-github"></i></button></center>
+    </div>
+    
   </div>
 </div>
+
+
+<div id="footer">
+  <center><h1>Hello Friend</h1></center>
 </div>
+
+
+
+
 </body>
 </html>
