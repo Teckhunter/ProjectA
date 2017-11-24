@@ -17,7 +17,8 @@
 	<style>
 .row
 {
-  margin-right:0.05%;
+  margin-right:0;
+  padding-bottom:25px;
 }
 #headline1
 {
@@ -28,21 +29,19 @@
 #headline1 img
 {
   color:#2F4F4F;
-  width:140px;
   height:72px;
-}
-.center1
-{
-  padding-left:50px;
+  width:140px;
+  margin-left:25%;
+  border-radius:12px;
 }
 #headline2 button
 {
   font-size:12px;
   width:20%;
   height:40px;
-  margin-top:18px;
-  margin-right:-4px;
   border-radius:0px;
+  margin-right:-0.6%;
+  margin-top:15px;
 }
 #headline2 button:hover
 {
@@ -58,52 +57,17 @@
 #headline3 button
 {
   color:black;
-  margin-left:-3.8px;
+  
   width:25%;
   height:40px;
   border-radius:0px;
-  margin-top:18px;
+  margin-right:-0.9%;
+  margin-top:15px;
 }
 #headline3 button:hover
 {
   background:#778899;
   color:white
-}
-#body2
-{
-  background:white;
-  
-}
-#body2 h2
-{
-  font-family:Spectral SC;
-  font-size:40px;
-  padding-top:20px;
-}
-#body2 hr
-{
-  margin-left:0px;
-  margin-right:0px;
-  height:2px;
-  background:gray;
-}
-#body1,#body3
-{
-  background:#555555;
-}
-.main
-{
-  background:#555555;
-  padding-top:2%;
-  
-}
-
-
-
-
-.top
-{
-  margin-top:-1.5%;
 }
 #shekhar
 {
@@ -118,33 +82,23 @@
   background:#d66511;
   color:salteblue;
 }
-img
+#links img
 {
   width:107%;
   height:256px;
-  margin-left:-3.5%;  
+  margin-left:-4%
+ 
 }
-.col-lg-4
+#links .col-lg-4
 {  
-  padding-bottom:300px;
-  margin-bottom:40px;
+ padding-bottom:200px;
 }
 .social-buttons button
 {
-  border-radius:0px;
-  width:20%;
+height:6%;
+width:30%;
 }
 
-.social-buttons
-{
- margin-top:20%;
-  margin-bottom:-20%;
-}
-
-#footer
-{
-  background:#693529;  
-}
 .fa
 {
   color:white;
@@ -163,7 +117,12 @@ img
  background:#333333;
 }
 
-
+#footer
+{
+	margin-top:-10%;
+ background:#693529; 
+	
+}
 
 
 	</style>
@@ -181,8 +140,8 @@ img
       <button class="btn">Titans</button>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4" id="headline3">
-      <a href="facebook.com/parth.saxena.378" target="#"><button class="btn"><i class="fa fa-facebook"></i></button></a>
-      <a href="" target="#"><button class="btn"><i class="fa fa-twitter"></i></button></a>
+      <a href="https://www.facebook.com/SiliconHBO/" target="#"><button class="btn"><i class="fa fa-facebook"></i></button></a>
+      <a href="https://twitter.com/siliconhbo?lang=en" target="#"><button class="btn"><i class="fa fa-twitter"></i></button></a>
       <button class="btn"><i class="fa fa-user"></i></button>
       <button class="btn"><i class="fa fa-search"></i></button>
     </div>
@@ -191,10 +150,11 @@ img
 
 
 
-<div class="top">
+<div class="row" id="links">
   <div class="col-lg-4" id="parth">
     <a href="#"><img src="https://thehalleyben.files.wordpress.com/2017/11/gods.jpg"><button class="btn btn-block"><h2>Parth</h2></button></a>
-      <div class="social-buttons container">
+      <br>
+	  <div class="social-buttons container col-lg-12">
       <center><button class="btn fac-facebook"><i class="fa fa-facebook"></i></button>
         <button class="btn fac-linkedin"><i class="fa fa-linkedin"></i></button>
         <button class="btn fac-github"><i class="fa fa-github"></i></button></center>
@@ -206,8 +166,8 @@ img
   <div class="col-lg-4" id="rahul">
     <a href="#"><img src="https://thehalleyben.files.wordpress.com/2017/11/flash_vs_reverse_flash-wallpaper-1920x1080.jpg">
       <button class="btn btn-block"> <h2>Rahul</h2></button></a>
-    
-    <div class="social-buttons container">
+    <br>
+    <div class="social-buttons container col-lg-12">
       <center><a href="facebook.com/rahul8752" target="#"><button class="btn fac-facebook"><i class="fa fa-facebook"></i></button></a>
         <a href"linkedin.com"><button class="btn fac-linkedin"><i class="fa fa-linkedin"></i></button></a>
         <a href="github.com/Teckhunter"> <button class="btn fac-github"><i class="fa fa-github"></i></button></a></center>
@@ -217,11 +177,11 @@ img
   </div>
   <div class="col-lg-4" id="shekhar">
     <a href="#shekhar-modal"> <img src="https://thehalleyben.files.wordpress.com/2017/11/batman-super.jpg"><button class="btn btn-block"><h2>Shekhar</h2></button></a>
-    
-    <div class="social-buttons container">
-      <center><button class="btn fac-facebook"><i class="fa fa-facebook"></i></button>
-        <a href="facebook.com/shekharbanerjee96"><button class="btn fac-linkedin"><i class="fa fa-linkedin"></i></button>
- <a href="github.com/shekharbanerjee96">       <button class="btn fac-github"><i class="fa fa-github"></i></button></center>
+    <br>
+    <div class="social-buttons container col-lg-12">
+		<center><a href="facebook.com/rahul8752" target="#"><button class="btn fac-facebook"><i class="fa fa-facebook"></i></button></a>
+        <a href"linkedin.com"><button class="btn fac-linkedin"><i class="fa fa-linkedin"></i></button></a>
+        <a href="github.com/Teckhunter"> <button class="btn fac-github"><i class="fa fa-github"></i></button></a></center>
     </div>
     
   </div>
@@ -229,8 +189,9 @@ img
 
 
 <div id="footer">
-  <center><h1>Hello Friend</h1></center>
+  <center><button class="btn">Home</button></center>
 </div>
+
 
 
 
